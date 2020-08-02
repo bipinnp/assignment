@@ -23,6 +23,8 @@ public class PersonService {
 	@Autowired
 	private PersonGeneralInformationRepository personGeneralInformationRepository;
 
+	//https://www.java67.com/2015/08/how-to-load-data-from-csv-file-in-java.html
+	
 	private static final String CSV_FILE_PATH = "src/main/resources/persons.csv";
 	String line = " ";
 
